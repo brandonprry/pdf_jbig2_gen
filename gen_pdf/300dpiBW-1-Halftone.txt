@@ -1,0 +1,82 @@
+%PDF-1.4
+1 0 obj
+<</Type/Pages
+/Count 1
+/Kids[ 7 0 R ]
+>>
+endobj
+2 0 obj
+<</Type/Catalog
+/Pages 1 0 R
+/PieceInfo<</CVPI<</LastModified(D:20051122152833-05'00')/Private<</Mode/Raster/Build(3.0.84)>>>>
+>>
+>>
+endobj
+3 0 obj
+<<
+/CreationDate(D:20051122152833-05'00')
+/Creator (PdfCompressor 3.0.84)
+/Producer (CVISION Technologies)
+>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/Encoding/WinAnsiEncoding/BaseFont/Helvetica>>
+endobj
+5 0 obj
+<</Type/Font/Subtype/Type1/Encoding/WinAnsiEncoding/BaseFont/Times-Roman>>
+endobj
+6 0 obj
+<</Type/Font/Subtype/Type1/Encoding/WinAnsiEncoding/BaseFont/Courier>>
+endobj
+7 0 obj
+<</Type/Page
+/Parent 1 0 R
+/Resources 8 0 R
+/MediaBox[0 0 967.68 1728.00]
+>>
+endobj
+8 0 obj
+<</ProcSet[/PDF/ImageB/Text]
+/Font<</F0 4 0 R
+/F1 5 0 R
+/F2 6 0 R
+>>
+/XObject<</I0 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<</Type/XObject
+/Subtype/Image
+/Width 10
+/Height 10
+/BitsPerComponent 1
+/ColorSpace/DeviceGray
+/Length {JBIG_LENGTH}
+/Filter [/ASCIIHexDecode/JBIG2Decode]
+>>
+stream
+{JBIG_IMAGE}
+endstream
+endobj
+
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000065 00000 n 
+0000000213 00000 n 
+0000000338 00000 n 
+0000000426 00000 n 
+0000000516 00000 n 
+0000000602 00000 n 
+0000000694 00000 n 
+0000000804 00000 n 
+trailer
+<</Size 10
+/Info 3 0 R
+/Root 2 0 R
+>>
+startxref
+{XREF_OFFSET}
+%%EOF
