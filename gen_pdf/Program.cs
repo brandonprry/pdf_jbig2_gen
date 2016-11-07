@@ -2,7 +2,6 @@
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text.RegularExpressions;
 
 namespace gen_pdf
 {
@@ -21,9 +20,8 @@ namespace gen_pdf
 			using (StreamReader reader = new StreamReader(stream))
 				template = reader.ReadToEnd();
 
-			string hex = string.Concat(data.Select(b => b.ToString("X2")).ToArray()).ToLower();
+			string hex = string.Concat(data.Skip(8).Select(b => b.ToString("X2")).ToArray()).ToLower() + ">";
 			template = template.Replace("{JBIG_LENGTH}", hex.Length.ToString());
-
 			template = template.Replace("{JBIG_IMAGE}", hex);
 
 			int idx = template.IndexOf("10 0 obj");
@@ -32,13 +30,10 @@ namespace gen_pdf
 			template = template.Replace("{10_OBJ_OFFSET}", sidx);
 
 			idx = template.IndexOf("xref");
-			int idx2 = Regex.Match(template, "xref").Index;
-
 			template = template.Replace("{XREF_OFFSET}", idx.ToString());
 
 			string name = Guid.NewGuid().ToString();
 			File.WriteAllText("/tmp/" + name + ".pdf", template);
-
 			Console.WriteLine("File written to /tmp/" + name + ".pdf");
 		}
 	}

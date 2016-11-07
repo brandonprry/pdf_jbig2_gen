@@ -32,7 +32,7 @@ endobj
 <</Type/Page
 /Parent 1 0 R
 /Resources 8 0 R
-/MediaBox[0 0 967.68 1728.00]
+/MediaBox[0 0 800.00 1200.00]
 >>
 endobj
 8 0 obj
@@ -48,8 +48,8 @@ endobj
 9 0 obj
 <</Type/XObject
 /Subtype/Image
-/Width 10
-/Height 10
+/Width 800
+/Height 1200
 /BitsPerComponent 1
 /ColorSpace/DeviceGray
 /Length {JBIG_LENGTH}
@@ -59,7 +59,6 @@ stream
 {JBIG_IMAGE}
 endstream
 endobj
-
 xref
 0 10
 0000000000 65535 f 
