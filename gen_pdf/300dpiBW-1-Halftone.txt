@@ -55,6 +55,7 @@ endobj
 /ColorSpace/DeviceGray
 /Length {JBIG_LENGTH}
 /Filter [/ASCIIHexDecode/JBIG2Decode]
+/DecodeParms [null << /JBIG2Globals 11 0 R >>]
 >>
 stream
 {JBIG_IMAGE}
@@ -69,8 +70,15 @@ stream
 /I0 Do
 endstream
 endobj
+11 0 obj
+<</Length {GLOBAL_LENGTH}
+/Filter /ASCIIHexDecode>>
+stream
+{GLOBAL_HEX}
+endstream
+endobj
 xref
-0 11
+0 12
 0000000000 65535 f 
 0000000009 00000 n 
 0000000065 00000 n 
@@ -82,8 +90,9 @@ xref
 0000000711 00000 n 
 0000000821 00000 n 
 {10_OBJ_OFFSET} 00000 n 
+{11_OBJ_OFFSET} 00000 n 
 trailer
-<</Size 11
+<</Size 12
 /Info 3 0 R
 /Root 2 0 R
 >>
